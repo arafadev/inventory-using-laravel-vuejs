@@ -9,9 +9,9 @@ class AppStorage {
         localStorage.setItem('user', user);
     }
 
-    store(user,token){
-        this.storeToken(token)
+    store(token,user){
         this.storeUser(user)
+        this.storeToken(token)
     }
 
     clear(){
