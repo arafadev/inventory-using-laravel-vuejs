@@ -1,3 +1,5 @@
+
+
 <template>
   <div>
     <div class="row justify-content-center">
@@ -8,7 +10,7 @@
               <div class="col-lg-12">
                 <div class="login-form">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Forget Password! </h1>
+                    <h1 class="h4 text-gray-900 mb-4">Forget Password</h1>
                   </div>
                   <form class="user">
                     <div class="form-group">
@@ -31,9 +33,10 @@
                   <hr />
                   <div class="text-center">
                     <router-link to="/" class="font-weight-bold small"
-                      >Back To Login!</router-link
+                      >Back to Login!</router-link
                     >
                   </div>
+                  <div class="text-center"></div>
                 </div>
               </div>
             </div>
@@ -44,9 +47,11 @@
   </div>
 </template>
 
-<script>
-export default {};
+
+
+<script type="text/javascript">
 </script>
 
-<style>
+
+<style type="text/css">
 </style>

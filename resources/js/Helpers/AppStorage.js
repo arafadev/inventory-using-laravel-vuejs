@@ -17,6 +17,7 @@ class AppStorage {
     clear(){
         localStorage.removeItem('token')
         localStorage.removeItem('user')
+        return true;
     }
 
     getToken(){

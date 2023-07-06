@@ -32,6 +32,7 @@ class AuthController extends Controller
 
 
     public function signup(Request $request)
+
     {
 
         $validateData = $request->validate([
